@@ -358,6 +358,9 @@ dialog {
 	position: relative;
 	text-decoration: none;
 }
+.hotTour .head .more:hover {
+	text-decoration: underline;
+}
 .hotTour .head .more:before {
 	content: '';
 	position: absolute;
@@ -615,6 +618,9 @@ dialog {
 	text-decoration: none;
 	color: #50504e;
 }
+.popular-list .tags a:hover {
+	background: #fff;
+}
 .popular-list .frame {
 	margin-left: 190px;
 	color: #263555;
@@ -685,6 +691,9 @@ dialog {
 	-o-transform: rotate(-135deg);
 	transform: rotate(-135deg);
 }
+.more-items a:hover {
+	text-decoration: underline;
+}
 #footer {
 	background: rgba(90,167,204,.79);
 	padding: 30px 40px 34px;
@@ -711,7 +720,9 @@ dialog {
 .footer-social img {
 	vertical-align: top;
 }
-
+.footer-social a:hover img {
+	opacity: .7;
+}
 .footer-nav {
 	margin:0;
 	padding:10px 0 0 50px;
