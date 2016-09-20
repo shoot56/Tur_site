@@ -130,11 +130,10 @@ dialog {
 	content: '';
 	position: absolute;
 	bottom: 0;
-	width: 12px;
-	height: 12px;
+	width: 13px;
+	height: 13px;
 	display: none;
-	background: #9bc9e2;
-	
+	background: url(../images/deco02.png) no-repeat;
 }
 #nav > li.active:before,
 #nav > li.active:after {
@@ -145,6 +144,10 @@ dialog {
 }
 #nav > li:after {
 	left: 100%;
+	-webkit-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	transform: rotate(90deg);
 }
 #nav .drop {
 	display: none;
@@ -214,7 +217,7 @@ dialog {
 }
 #nav > li.active a:before,
 #nav > li.active a:after {
-	display: block;
+	/* display: block; */
 }
 #nav .drop ul {
 	margin:0;
